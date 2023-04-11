@@ -23,7 +23,7 @@
 <pre>vagrant up</pre>
 Для подключения к хосту nginx нам необходимо будет передать множество параметров - это
 особенность Vagrant. Узнать эти параметры можно с помощью команды <pre>vagrant ssh-config</pre>.
-<h1>Inventory<h1>
+<h1>Inventory</h1>
 Создаем inventory файл с помощью команды <pre>nano inventory</pre>,вписываем в него параметры:
 <pre>[webservers] nginx ansible_host=127.0.0.1 
 ansible_port=2222 

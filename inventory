@@ -1,0 +1,4 @@
+[webservers] 
+nginx ansible_host=127.0.0.1 
+ansible_port=2222 
+ansible_private_key_file=/home/admin/os_lab2/test/ansible/.vagrant/machines/nginx/virtualbox/private_key

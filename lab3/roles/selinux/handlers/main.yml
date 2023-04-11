@@ -1,0 +1,5 @@
+---
+# handlers file for roles/selinux
+- name: Reboot 
+  ansible.builtin.reboot:
+    reboot_timeout: 36

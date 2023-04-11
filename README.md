@@ -14,11 +14,11 @@
 <h5>Если необходимо, установить ansible командой<h5>
 <pre>sudo apt install ansible</pre>
 Убедится в коррктночти установки:
-ansible --version
-Подготовка стенда
+  <pre>ansible --version</pre>
+<h1>Подготовка стенда</h1>
 В созданный каталог, скопировать присланные файлы, убедиться что файл Vagrant не содержит
 ошибок. Проверяем статус Vagrant:
-vagrant status
+  <pre>vagrant status</pre>
 Полнять Vagrant:
 vagrant up
 Для подключения к хосту nginx нам необходимо будет передать множество параметров - это
